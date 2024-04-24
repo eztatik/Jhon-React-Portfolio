@@ -1,0 +1,302 @@
+.carousel-item h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 80px;
+  color: white;
+  font-family: "Gentium Book Plus", serif;
+}
+
+#navbarBrand {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+#navbarText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+#navbarText .nav-link {
+  color: #10b8d2 !important;
+}
+
+.pos-f-t p {
+  color: white;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+html p,
+body p {
+  font-size: medium;
+  font-family: "Open Sans", sans-serif;
+}
+
+html h1,
+body h1 {
+  font-size: large;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container-fluid {
+  padding: 0 !important;
+  padding-right: 0 !important;
+}
+
+.content-separator {
+  padding: 0 !important;
+  padding-right: 0 !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  background: #10b8d2;
+  height: 200px;
+  padding-right: 0;
+}
+
+.content-separator .separator-text {
+  color: white;
+  text-transform: uppercase;
+  font-size: large;
+  font-family: "Open Sans", sans-serif;
+  text-rendering: optimizeLegibility;
+  letter-spacing: 2px;
+}
+
+.content-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  padding: 50px !important;
+}
+
+.content-text h1 {
+  font-size: large;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  color: #10b8d2;
+}
+
+.content-text p {
+  color: grey;
+}
+
+.container-footer {
+  background: #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.container-footer .footer-content {
+  padding: 50px;
+}
+
+.container-footer p {
+  font-size: small;
+  font-family: "Open Sans", sans-serif;
+  color: lightgrey;
+}
+
+#accordion .card {
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 30px;
+}
+
+#accordion .card button {
+  color: grey;
+  font-size: medium;
+  font-family: "Open Sans", sans-serif;
+}
+
+#accordion .card-header {
+  background: white;
+  -webkit-box-shadow: 3px 4px lightgrey;
+          box-shadow: 3px 4px lightgrey;
+  font-size: medium;
+  font-family: "Open Sans", sans-serif;
+}
+
+#accordion .card-header button {
+  color: #10b8d2;
+}
+
+#accordion .card-header:hover {
+  background: #10b8d2 !important;
+}
+
+#accordion .card-header:hover button {
+  color: white;
+}
+
+#accordion .card-body {
+  -webkit-box-shadow: 4px lightgrey;
+          box-shadow: 4px lightgrey;
+  color: grey;
+  font-size: medium;
+  font-family: "Open Sans", sans-serif;
+}
+
+form {
+  background-color: #2ab8d2;
+  opacity: 1;
+  background: -webkit-gradient(linear, left top, right top, from(#2ab8d2), to(#258abc));
+  background: linear-gradient(to right, #2ab8d2 0%, #258abc 100%);
+  padding: 50px;
+}
+
+form #form-title {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: large;
+  font-family: "Open Sans", sans-serif;
+  text-rendering: optimizeLegibility;
+  letter-spacing: 2px;
+  padding-bottom: 10px;
+}
+
+form #email, form #subject, form #firstname, form #lastname, form #phone {
+  border-color: rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.1);
+  color: white;
+}
+
+form ::-webkit-input-placeholder {
+  color: white !important;
+  font-size: small;
+  font-family: "Open Sans", sans-serif;
+}
+
+form :-ms-input-placeholder {
+  color: white !important;
+  font-size: small;
+  font-family: "Open Sans", sans-serif;
+}
+
+form ::-ms-input-placeholder {
+  color: white !important;
+  font-size: small;
+  font-family: "Open Sans", sans-serif;
+}
+
+form ::placeholder {
+  color: white !important;
+  font-size: small;
+  font-family: "Open Sans", sans-serif;
+}
+
+form .btn-secondary {
+  background: white !important;
+  color: grey;
+  border: 0;
+  border-radius: 0%;
+}
+
+form .btn-secondary:hover {
+  background: #10b8d2 !important;
+  color: white;
+}
+
+#scroll {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  border-color: rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.1);
+  opacity: 0.9;
+  text-indent: -9999px;
+  display: none;
+  border-radius: 60px;
+}
+
+#scroll span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -8px;
+  margin-top: -12px;
+  height: 0;
+  width: 0;
+  border: 8px solid transparent;
+  border-bottom-color: #ffffff;
+}
+
+#scroll:hover {
+  background-color: #10b8d2;
+  opacity: 1;
+  filter: "alpha(opacity=100)";
+  -ms-filter: "alpha(opacity=100)";
+}
+
+@media (max-width: 575.98px) {
+  #carouselExampleSlidesOnly {
+    display: none !important;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  #carouselExampleSlidesOnly {
+    display: none !important;
+  }
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,34 @@
+@import "./mixins";
+form {
+    #form-title {
+        color: $secondaryColor;
+        @include textCenter();
+        text-transform: uppercase;
+        @include largeFont();
+        text-rendering: optimizeLegibility;
+        letter-spacing: 2px;
+        padding-bottom: 10px;
+    }
+    @include backgroundOverlay();
+    padding: 50px; 
+    #email, #subject, #firstname, #lastname,  #phone
+     {
+        @include inputBackgroundOverlay;
+        color: $secondaryColor;
+        
+    }   
+    ::placeholder {
+        color: $secondaryColor !important;
+        @include smallFont();
+    }
+    .btn-secondary {
+        background: $secondaryColor !important;
+        color: $thirtiaryColor;
+        border: 0;
+        border-radius: 0%;
+        &:hover {
+            background: $primaryColor !important;
+            color: $secondaryColor;
+        }
+    }
+}

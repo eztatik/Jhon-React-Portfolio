@@ -1,0 +1,35 @@
+//colors
+$primaryColor: #10b8d2;
+$secondaryColor: white;
+$thirtiaryColor: grey;
+$fourthColor: lightgrey;
+$fifthColor: #000000;
+$sixthColor: red;
+
+@mixin backgroundOverlay {
+  background-color: #2ab8d2;
+  opacity: 1;
+  background: linear-gradient(to right, #2ab8d2 0%, #258abc 100%);
+}
+
+@mixin inputBackgroundOverlay {
+  border-color: rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.1);
+}
+
+//Font Sizes
+
+@mixin smallFont {
+  font-size: small;
+  font-family: "Open Sans", sans-serif;
+}
+
+@mixin mediumFont {
+  font-size: medium;
+  font-family: "Open Sans", sans-serif;
+}
+
+@mixin largeFont {
+  font-size: large;
+  font-family: "Open Sans", sans-serif;
+}

@@ -1,0 +1,25 @@
+@mixin flexCenter {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+@mixin textCenter {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+@mixin fullWidth {
+    padding: 0 !important;
+    padding-right: 0 !important;
+}
+
+    
+        
+    
+
+

@@ -1,0 +1,57 @@
+@import "./mixins";
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  p {
+    @include mediumFont();
+  }
+
+  h1 {
+    @include largeFont;
+  }
+}
+.container-fluid {
+  @include fullWidth();
+}
+.content-separator {
+  @include fullWidth();
+  @include textCenter();
+  background: $primaryColor;
+  height: 200px;
+  padding-right: 0;
+
+  .separator-text {
+    color: white;
+    text-transform: uppercase;
+    @include largeFont();
+    text-rendering: optimizeLegibility;
+    letter-spacing: 2px;
+  }
+}
+.content-text {
+  @include textCenter();
+  padding: 50px !important;
+  h1 {
+    @include largeFont();
+    font-weight: bold;
+    color: $primaryColor;
+  }
+  p {
+    color: $thirtiaryColor;
+  }
+}
+
+.container-footer {
+  background: $fifthColor;
+  .footer-content {
+    padding: 50px;
+  }
+  @include textCenter();
+  p {
+    @include smallFont();
+    color: $fourthColor;
+  }
+}

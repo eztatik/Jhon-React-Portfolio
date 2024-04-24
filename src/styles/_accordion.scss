@@ -1,0 +1,33 @@
+@import "./mixins";
+#accordion {
+    .card {
+        margin-top: 20px;
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-bottom: 30px;;
+        button {
+            color: $thirtiaryColor;
+            @include mediumFont;
+        }
+    }
+    .card-header {
+        background: $secondaryColor;
+        box-shadow: 3px 4px $fourthColor;
+        button {
+            color: $primaryColor;
+        }
+        &:hover {
+           background: #10b8d2 !important;
+           button {
+            color: $secondaryColor;
+           }
+        } 
+        @include mediumFont();
+    }
+    .card-body{
+        box-shadow:  4px $fourthColor;
+        color: $thirtiaryColor;
+        @include mediumFont();
+        
+    }
+}

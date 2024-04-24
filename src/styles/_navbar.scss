@@ -1,0 +1,21 @@
+#navbarBrand{
+    @include textCenter(); 
+}
+#navbarText{
+        @include textCenter(); 
+        .nav-link{
+            color: $primaryColor !important;
+        }
+
+}
+
+//menu style
+.pos-f-t {
+    p{
+        color: $secondaryColor;
+    }
+}
+
+
+
+
